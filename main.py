@@ -193,7 +193,6 @@ def main():
         os.remove('compressed/.DS_Store')
     except FileNotFoundError:
         pass
-    os.remove('compressed/dataset-metadata.json')
 
 
 if __name__ == '__main__':
